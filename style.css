@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eee;
+}
+
+.subs-odometer{
+    font-size: 48px;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px ;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    min-width: 300px;
+    text-align: center;
+}
+h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 24px;
+    letter-spacing: 8px;
+}
